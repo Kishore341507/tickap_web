@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickAp</title>
+    <!-- <link rel="icon" type="image/png" href="path/to/favicon.png"> -->
+</head>
+
+<link rel="stylesheet" href="t.css">
+
+<body>
+
+    <div class="hello">
+        <h1> TickAp </h1>
+        <h3>hello</h3>
+    </div>
+    <button id = 'login'>
+        Login
+    </button>
+    <form>
+        <label id = "buscode" for="search">Bus Code </label>
+        <input type="search" id="search" name="search" list="search-list">
+        <datalist id="search-list">
+            <option value="" type your station here>
+            </datalist>
+            
+            <br>
+            <label> From </label>
+            <select id = "origin" > 
+                <option value="" disabled selected>Type Your Bus Code</option>
+            </select>
+            <br>
+            <label> To </label>
+            <select id = 'destination' >
+                <option value="" disabled selected>Type Your Bus Code</option> 
+            </select>
+            <br>
+            
+            <button id = "googlepay">
+                Google pay
+            </button>
+            
+            <button id = "phonepay">
+                Phone pay
+            </button>
+            
+            <button id = "paytm">
+                Paytm
+            </button> 
+        </form>
+    </body>
+    <script type="module" src="test.js" > </script>
+    </html>
