@@ -1,0 +1,29 @@
+
+.hello{
+    background-color: yellow;
+    margin-top: -67px;
+    color: red;
+    font-size:  50px !important;
+    text-align: center;
+}
+
+h3 {
+    position: relative;
+    font-size: 18px;
+    top : -85px ;
+    right:  125px;
+}
+
+body {
+    background-color: rgb(89, 113, 89);
+}
+
+#login {
+    margin-right:10%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
